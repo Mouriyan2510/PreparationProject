@@ -9,7 +9,7 @@ public class FinallySample {
 			if (a < b) {
 				throw new CustomException(a + "  is small");
 			} else {
-				throw new CustomException(b + "  is small");
+				throw new CustomException(b + "  is smaller");
 			}
 		} finally {
 			System.out.println("Execute whether it is handled or not");
