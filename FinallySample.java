@@ -3,7 +3,7 @@ package com.one.day1;
 public class FinallySample {
 
 	public static void main(String[] args) throws CustomException {
-		int a = 10;
+		int a = 110;
 		int b = 100;
 		try {
 			if (a < b) {
